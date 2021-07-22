@@ -1,0 +1,290 @@
+[
+  {
+    "_id": "0f9d4fb0-e116-11eb-8504-9f967eef9e47",
+    "_type": "dashboard",
+    "_source": {
+      "title": "uCentral Cluster Metrics",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":5,\"w\":13,\"h\":5,\"i\":\"1\"},\"id\":\"b78d36a0-e115-11eb-8504-9f967eef9e47\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":10,\"w\":24,\"h\":11,\"i\":\"2\"},\"id\":\"0fe24cc0-e0ba-11eb-8504-9f967eef9e47\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":16,\"y\":36,\"w\":32,\"h\":10,\"i\":\"6\"},\"id\":\"87829f20-e12b-11eb-8504-9f967eef9e47\",\"panelIndex\":\"6\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":21,\"w\":24,\"h\":15,\"i\":\"9\"},\"id\":\"ec29edb0-e131-11eb-8504-9f967eef9e47\",\"panelIndex\":\"9\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}}},\"gridData\":{\"x\":0,\"y\":36,\"w\":16,\"h\":10,\"i\":\"11\"},\"id\":\"b7d1d3b0-e268-11eb-8504-9f967eef9e47\",\"panelIndex\":\"11\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":13,\"y\":0,\"w\":35,\"h\":10,\"i\":\"12\"},\"id\":\"39d1c5c0-e3ca-11eb-8504-9f967eef9e47\",\"panelIndex\":\"12\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":13,\"h\":5,\"i\":\"13\"},\"id\":\"acdba3f0-e326-11eb-8504-9f967eef9e47\",\"panelIndex\":\"13\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":46,\"w\":24,\"h\":15,\"i\":\"14\"},\"id\":\"8ef5e9d0-e3c7-11eb-8504-9f967eef9e47\",\"panelIndex\":\"14\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":61,\"w\":24,\"h\":15,\"i\":\"15\"},\"id\":\"99b4ba00-e3c6-11eb-8504-9f967eef9e47\",\"panelIndex\":\"15\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":10,\"w\":24,\"h\":11,\"i\":\"16\"},\"id\":\"36ea9340-e3e9-11eb-8504-9f967eef9e47\",\"panelIndex\":\"16\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":21,\"w\":24,\"h\":15,\"i\":\"17\"},\"id\":\"6a3d8170-e4a3-11eb-8504-9f967eef9e47\",\"panelIndex\":\"17\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":46,\"w\":24,\"h\":15,\"i\":\"18\"},\"id\":\"dac9bb90-e4a6-11eb-8504-9f967eef9e47\",\"panelIndex\":\"18\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":61,\"w\":24,\"h\":15,\"i\":\"19\"},\"id\":\"190f3330-e4a7-11eb-8504-9f967eef9e47\",\"panelIndex\":\"19\",\"type\":\"visualization\",\"version\":\"6.8.6\"},{\"gridData\":{\"x\":0,\"y\":76,\"w\":24,\"h\":15,\"i\":\"20\"},\"version\":\"6.8.6\",\"panelIndex\":\"20\",\"type\":\"visualization\",\"id\":\"9eab2bc0-e68c-11eb-8504-9f967eef9e47\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"controlledBy\":\"1615373149067\",\"disabled\":false,\"index\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"key\":\"instance.keyword\",\"negate\":false,\"params\":{\"query\":\"ucentral-qa01\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"ucentral-qa01\"},\"query\":{\"match\":{\"instance.keyword\":{\"query\":\"ucentral-qa01\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "0fe24cc0-e0ba-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "uCentral Free memory per AP",
+      "visState": "{\"title\":\"uCentral Free memory per AP\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":true,\"style\":{\"color\":\"#eee\"},\"valueAxis\":\"ValueAxis-1\"},\"legendPosition\":\"right\",\"radiusRatio\":51,\"seriesParams\":[{\"data\":{\"id\":\"4\",\"label\":\"Free memory\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"line\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"line\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\",\"defaultYExtents\":false},\"show\":true,\"style\":{},\"title\":{\"text\":\"Free memory\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"4\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"payload.state.unit.memory.free\",\"customLabel\":\"Free memory\"}},{\"id\":\"5\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"timeRange\":{\"from\":\"now-12h\",\"to\":\"now\",\"mode\":\"quick\"},\"useNormalizedEsInterval\":true,\"interval\":\"auto\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"6\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"payload.serial.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"4\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Serial\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "06320a20-e12e-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "uCentral HealthCheck",
+      "visState": "{\"title\":\"uCentral HealthCheck\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Average payload.sanity\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Average payload.sanity\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"cardinal\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"payload.sanity\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"timeRange\":{\"from\":\"now-24h\",\"to\":\"now\",\"mode\":\"quick\"},\"useNormalizedEsInterval\":true,\"interval\":\"auto\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"payload.serial.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "b78d36a0-e115-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "uCentral AP",
+      "visState": "{\"title\":\"uCentral AP\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1625876847881\",\"indexPattern\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"fieldName\":\"payload.serial.keyword\",\"parent\":\"\",\"label\":\"uCentral AP\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"dynamicOptions\":true,\"size\":5,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":false,\"pinFilters\":false},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "758a75d0-e3bb-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "uCentral AP Overview",
+      "visState": "{\"title\":\"uCentral AP Overview\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"top_hits\",\"schema\":\"metric\",\"params\":{\"field\":\"payload.state.unit.uptime\",\"aggregate\":\"concat\",\"size\":1,\"sortField\":\"@timestamp\",\"sortOrder\":\"desc\",\"customLabel\":\"Uptime\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"payload.serial.keyword\",\"size\":20,\"order\":\"asc\",\"orderBy\":\"_key\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"AP\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"top_hits\",\"schema\":\"metric\",\"params\":{\"field\":\"payload.state.unit.memory.free\",\"aggregate\":\"concat\",\"size\":1,\"sortField\":\"@timestamp\",\"sortOrder\":\"desc\",\"customLabel\":\"Free Memory\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "87829f20-e12b-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "uCentral ssid bitrate",
+      "visState": "{\"title\":\"uCentral ssid bitrate\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":true,\"style\":{\"color\":\"#eee\"},\"valueAxis\":\"ValueAxis-1\"},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"filter\":false},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"SSID Bitrate\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"SSID Rx Bitrate\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":false,\"interpolate\":\"linear\"},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":false,\"interpolate\":\"linear\",\"data\":{\"id\":\"3\",\"label\":\"SSID Tx Bitrate\"},\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"payload.state.interfaces.ssids.associations.rx_rate.bitrate\",\"customLabel\":\"SSID Rx Bitrate\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"timeRange\":{\"from\":\"now-1h\",\"to\":\"now\",\"mode\":\"quick\"},\"useNormalizedEsInterval\":true,\"interval\":\"auto\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"payload.state.interfaces.ssids.associations.tx_rate.bitrate\",\"customLabel\":\"SSID Tx Bitrate\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"payload.state.interfaces.ssids.ssid.keyword\",\"size\":5,\"order\":\"asc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"SSID\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "36ea9340-e3e9-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "AP Load",
+      "visState": "{\"title\":\"AP Load\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Load\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"Load\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"payload.state.unit.load15\",\"customLabel\":\"Load\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"timeRange\":{\"from\":\"now-12h\",\"to\":\"now\",\"mode\":\"quick\"},\"useNormalizedEsInterval\":true,\"interval\":\"auto\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"payload.serial.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"AP\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "acdba3f0-e326-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "uCentral Instance Selector",
+      "visState": "{\"title\":\"uCentral Instance Selector\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1615373149067\",\"indexPattern\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"fieldName\":\"instance.keyword\",\"parent\":\"\",\"label\":\"Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"dynamicOptions\":true,\"size\":5,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":false,\"pinFilters\":false},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"controlledBy\":\"1615373149067\",\"type\":\"phrase\",\"key\":\"instance.keyword\",\"value\":\"ucentral-1\",\"params\":{\"query\":\"ucentral-1\",\"type\":\"phrase\"},\"disabled\":false,\"negate\":false,\"alias\":null},\"query\":{\"match\":{\"instance.keyword\":{\"query\":\"ucentral-1\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "ec29edb0-e131-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "AP RSSI",
+      "visState": "{\"title\":\"AP RSSI\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"avg\",\"field\":\"payload.state.interfaces.ssids.associations.rssi\"},{\"script\":\"params.rssi - 4294967295\",\"id\":\"149f04a0-e4a3-11eb-926e-d5ce98501d87\",\"type\":\"math\",\"variables\":[{\"id\":\"172fc1a0-e4a3-11eb-926e-d5ce98501d87\",\"name\":\"rssi\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}]}],\"separate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":\"0\",\"stacked\":\"none\",\"terms_field\":\"payload.serial.keyword\",\"value_template\":\"{{value}} dBm\",\"split_color_mode\":\"rainbow\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"\",\"interval\":\">=3m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"axis_scale\":\"normal\",\"show_legend\":1,\"show_grid\":1,\"default_index_pattern\":\"logstash-*\",\"axis_min\":\"\",\"axis_max\":\"\",\"drop_last_bucket\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "dac9bb90-e4a6-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "AP TX Packets",
+      "visState": "{\"title\":\"AP TX Packets\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"55fcc230-e3c6-11eb-b665-e9f50e2941b8\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"55fcc231-e3c6-11eb-b665-e9f50e2941b8\",\"type\":\"sum\",\"field\":\"payload.state.interfaces.counters.tx_packets\"}],\"separate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":\"0\",\"stacked\":\"none\",\"terms_field\":\"payload.serial.keyword\",\"terms_order_by\":\"55fcc231-e3c6-11eb-b665-e9f50e2941b8\",\"label\":\"TX Packets\",\"override_index_pattern\":0,\"series_index_pattern\":\"logstash-*\",\"series_time_field\":\"@timestamp\",\"series_interval\":\"2m\",\"split_color_mode\":\"rainbow\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"\",\"interval\":\">=3m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"axis_scale\":\"normal\",\"show_legend\":0,\"show_grid\":1,\"default_index_pattern\":\"logstash-*\",\"bar_color_rules\":[{\"id\":\"7c41dba0-e3c7-11eb-b665-e9f50e2941b8\"}]},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "8ef5e9d0-e3c7-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "AP RX Packets",
+      "visState": "{\"title\":\"AP RX Packets\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"55fcc230-e3c6-11eb-b665-e9f50e2941b8\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"55fcc231-e3c6-11eb-b665-e9f50e2941b8\",\"type\":\"sum\",\"field\":\"payload.state.interfaces.counters.rx_packets\"}],\"separate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":\"0\",\"stacked\":\"none\",\"terms_field\":\"payload.serial.keyword\",\"terms_order_by\":\"55fcc231-e3c6-11eb-b665-e9f50e2941b8\",\"label\":\"RX Packets\",\"override_index_pattern\":0,\"series_index_pattern\":\"logstash-*\",\"series_time_field\":\"@timestamp\",\"series_interval\":\"2m\",\"split_color_mode\":\"rainbow\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"\",\"interval\":\">=3m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"axis_scale\":\"normal\",\"show_legend\":0,\"show_grid\":1,\"default_index_pattern\":\"logstash-*\",\"bar_color_rules\":[{\"id\":\"7c41dba0-e3c7-11eb-b665-e9f50e2941b8\"}]},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "6a3d8170-e4a3-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "AP Noise",
+      "visState": "{\"title\":\"AP Noise\",\"type\":\"metrics\",\"params\":{\"axis_formatter\":\"number\",\"axis_position\":\"left\",\"axis_scale\":\"normal\",\"default_index_pattern\":\"logstash-*\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"\",\"interval\":\">=3m\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":\"0\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"line_width\":1,\"metrics\":[{\"field\":\"payload.state.radios.noise\",\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"avg\"},{\"id\":\"149f04a0-e4a3-11eb-926e-d5ce98501d87\",\"script\":\"params.noise - 4294967295\",\"type\":\"math\",\"variables\":[{\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"id\":\"172fc1a0-e4a3-11eb-926e-d5ce98501d87\",\"name\":\"noise\"}]}],\"point_size\":1,\"separate_axis\":0,\"split_mode\":\"terms\",\"stacked\":\"none\",\"terms_field\":\"payload.serial.keyword\",\"value_template\":\"{{value}} dBm\",\"split_color_mode\":\"rainbow\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "39d1c5c0-e3ca-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "AP Health",
+      "visState": "{\"title\":\"AP Health\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"min\",\"field\":\"payload.sanity\"}],\"separate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"1\",\"point_size\":\"0\",\"fill\":\"0.1\",\"stacked\":\"none\",\"label\":\"AP Health\",\"terms_field\":\"payload.serial.keyword\",\"split_color_mode\":\"rainbow\",\"value_template\":\"{{value}} %\",\"override_index_pattern\":0,\"series_index_pattern\":\"logstash-*\",\"series_time_field\":\"@timestamp\",\"series_interval\":\"1m\",\"series_drop_last_bucket\":1,\"steps\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"\",\"interval\":\">=5m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"axis_scale\":\"normal\",\"show_legend\":1,\"show_grid\":1,\"default_index_pattern\":\"logstash-*\",\"axis_max\":\"\",\"axis_min\":\"0\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "190f3330-e4a7-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "AP RX Bytes",
+      "visState": "{\"title\":\"AP RX Bytes\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"55fcc230-e3c6-11eb-b665-e9f50e2941b8\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"55fcc231-e3c6-11eb-b665-e9f50e2941b8\",\"type\":\"sum\",\"field\":\"payload.state.interfaces.counters.rx_bytes\"}],\"separate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":\"0\",\"stacked\":\"none\",\"terms_field\":\"payload.serial.keyword\",\"terms_order_by\":\"55fcc231-e3c6-11eb-b665-e9f50e2941b8\",\"label\":\"RX Bytes\",\"steps\":0,\"split_color_mode\":\"rainbow\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"\",\"interval\":\">=3m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"axis_scale\":\"normal\",\"show_legend\":1,\"show_grid\":1,\"default_index_pattern\":\"logstash-*\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "99b4ba00-e3c6-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "AP TX Bytes",
+      "visState": "{\"title\":\"AP TX Bytes\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"55fcc230-e3c6-11eb-b665-e9f50e2941b8\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"55fcc231-e3c6-11eb-b665-e9f50e2941b8\",\"type\":\"sum\",\"field\":\"payload.state.interfaces.counters.tx_bytes\"}],\"separate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":\"0\",\"stacked\":\"none\",\"terms_field\":\"payload.serial.keyword\",\"terms_order_by\":\"55fcc231-e3c6-11eb-b665-e9f50e2941b8\",\"label\":\"TX Bytes\",\"steps\":0,\"split_color_mode\":\"rainbow\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"\",\"interval\":\">=3m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"axis_scale\":\"normal\",\"show_legend\":1,\"show_grid\":1,\"default_index_pattern\":\"logstash-*\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "9eab2bc0-e68c-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "Kafka Topics",
+      "visState": "{\"title\":\"Kafka Topics\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"kafka.topic.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "b7d1d3b0-e268-11eb-8504-9f967eef9e47",
+    "_type": "visualization",
+    "_source": {
+      "title": "SSID Breakdown",
+      "visState": "{\"title\":\"SSID Breakdown\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"payload.state.interfaces.ssids.ssid.keyword\",\"customLabel\":\"Count\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"payload.state.interfaces.ssids.ssid.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"_key\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Name\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"payload.state.interfaces.ssids.mode.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"_key\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Mode\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"payload.state.radios.channel\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"_key\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Channel\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"1eade710-818c-11eb-bbfe-059c34b41bfc\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  }
+]
