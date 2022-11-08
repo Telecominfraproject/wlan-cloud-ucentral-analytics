@@ -1,4 +1,3 @@
-
 # uCentral analytics
 
 ## Collecting metrics with ELK stack
@@ -80,3 +79,26 @@ Finally we can create visualization in Kibana based on AP metrics like the follo
 ![kibana-viz-01.png](img/kibana-viz-01.png)
 
 Exports of these Kibana visualization can be found [here](kibana/dashboard-ucentral-metrics.json).
+
+## Grafana QA debugging dashboard
+
+![grafana-qa-debugging](img/grafana.png)
+
+Repository includes exported Grafana dashboard that's used for debug puproses in TIP-managed testing environments deployed in Kubernetes. Dashboard allows to get all required information regarding container operation, restarts information and runtime logs.
+
+Provided information (from top left to bottom right):
+
+1. CPU usage information (usage, container requests and limits, throttling info);
+2. RAM usage information (usage, container requests and limits);
+3. Total container restarts count;
+4. Last restart exit code;
+5. Container logs.
+
+### Deployment requirements
+
+1. ElasticSearch 6 (version 6.8.22 is tested) - used for logs collection;
+2. Prometheus (version 2.39.1 is tested) - used for metrics collection (Operator is recommended);
+3. kube-state-metrics - used for pod metrics collection (requires forked version from https://github.com/Telecominfraproject/wlan-cloud-kube-state-metrics with enabled pod exit code metric OR if you need Docker image, you may use the latest from https://tip.jfrog.io/ui/repos/tree/General/tip-wlan-cloud-ucentral/kube-state-metrics);
+4. Grafana 8 (version 8.5.13 is tested) - used for visualization;
+
+Grafana 8 is used because of ElasticSearch 6 deprecation in version 9.
