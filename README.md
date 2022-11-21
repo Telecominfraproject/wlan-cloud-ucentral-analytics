@@ -94,6 +94,13 @@ Provided information (from top left to bottom right):
 4. Last restart exit code;
 5. Container logs.
 
+### Download logs
+
+If everything is set up, you can download for you container directly from Grafana. To do this you just need to hover over Logs panel, there should be a dropdown. Press it, then hover over Inspect and press Data. This will open the data and in here you will find Download Logs button:
+
+![grafana-logs-inspect](img/grafana-logs-inspect.png)
+![grafana-logs-download](img/grafana-logs-download.png)
+
 ### Deployment requirements
 
 1. ElasticSearch 6 (version 6.8.22 is tested) - used for logs collection;
